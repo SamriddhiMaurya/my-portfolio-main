@@ -24,7 +24,7 @@ const About = () => {
               data-aos-duration="2000"
               className="text-4xl pb-2 mb-10 font-bold inline border-b-4 border-gray-500"
             >
-              About
+              About & Work Experience
             </h3>
 
             <ol
@@ -76,14 +76,19 @@ const About = () => {
                 <h3 className="mb-1 pl-10 text-lg font-semibold text-gray-900 dark:text-white">
                   Front End Development
                 </h3>
-                <time className="block pl-10 mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                {/* <time className="block pl-10 mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Detail-oriented frontend developer with a strong foundation in
                   HTML, CSS, JavaScript and React JS.
+                </time> */}
+                <time className="block pl-10 mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                  Internship @Axeno Consulting | Jul'24 - Oct'24
                 </time>
-                {/* <p className="text-base pl-10 font-normal text-gray-500 dark:text-gray-400">
-                            Worked on Affiliate Tracking System to keep track of the links which led to 3x more efficient revenue prediction.
-
-                            </p> */}
+                <p className="mb-4 pl-10 text-base font-normal text-gray-500 dark:text-gray-400">
+                  • Gained hands-on experience with HTML, SCSS, JavaScript, and
+                  Typescript.
+                  • Worked with Adobe Experience Manager AEM to
+                  build and manage dynamic websites.
+                </p>
               </li>
               <li className="ms-6 px-5 lg:w-3/5">
                 <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -101,13 +106,10 @@ const About = () => {
                   Backend Development
                 </h3>
                 <time className="block pl-10 mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  Efficient backend developer skilled in database management
-                  and API development, driven to build robust server-side
-                  solutions.
+                  Efficient backend developer skilled in database management and
+                  API development, driven to build robust server-side solutions.
                 </time>
-                {/* <p className="text-base pl-10 font-normal text-gray-500 dark:text-gray-400">
-                                Contributed to the community by building various projects on Web, Android & Machine Learning. Taught python to 150+ students of our college.
-                            </p> */}
+            
               </li>
             </ol>
           </div>

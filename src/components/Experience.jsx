@@ -5,9 +5,10 @@ import node from "../assets/experience/node.png";
 import css from "../assets/experience/css.png";
 import react from "../assets/experience/react.png";
 import tailwind from "../assets/experience/tailwind.png";
-import python from "../assets/experience/python.png";
-// import bootstrap from "../assets/experience/bootstrap.png";
-import mongo from "../assets/experience/mongo.png";
+import scss from "../assets/experience/scss.png";
+import sql from "../assets/experience/sql.png";
+import typescript from "../assets/experience/typescript.png";
+import javascript from '../assets/experience/javascript.png'; 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -31,8 +32,9 @@ const Experience = () => {
     },
     {
       id: 3,
-      scr: react,
-      title: "ReactJS",
+
+      scr: javascript,
+      title: "Javascript",
       style: "shadow-blue-600",
     },
     {
@@ -50,17 +52,29 @@ const Experience = () => {
 
     {
       id: 6,
-      scr: python,
-      title: "Python",
+      scr: scss,
+      title: "scss",
       style: "shadow-blue-400",
     },
+
     {
       id: 7,
-      scr: mongo,
-      title: "MongoDB",
-      style: "shadow-slate-400",
+      scr: react,
+      title: "react",
+      style: "shadow-green-400",
     },
-
+    {
+      id: 8,
+      scr: typescript,
+      title: "typescript",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      scr: sql,
+      title: "sql",
+      style: "shadow-red-400",
+    },
   ];
 
   return (

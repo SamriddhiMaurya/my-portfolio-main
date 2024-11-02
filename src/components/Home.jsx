@@ -45,12 +45,7 @@ const Home = () => {
             >
               MCA'24 | Full-Stack Developer
             </h3>
-            {/* <p data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md w-full'>
-                                I'm a B.Tech 4th year Student of Ramkrishna Mahato Government Engineering College, Purulia. With expertise in Data Structures and Algorithms (DSA), Development in ReactJs, NodeJs, MongoDB, MySQL & much more. As a dynamic and forward-thinking programmer, I'm committed to staying up to date with the latest trends and technologies in the field.
-                            </p> */}
-            {/* <p data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md'>
-                                Co-Lead GDSC RKMGEC, Creator @codewithbiki, Google Cloud Facilitator, In-Charge E-Cell RKMGEC...
-                            </p> */}
+          
 
             <div className="flex flex-row justify-center items-center gap-2 w-full">
               <Link

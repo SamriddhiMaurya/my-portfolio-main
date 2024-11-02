@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import TodoList from "../assets/projects/TodoList.png";
 import CareerBoost from "../assets/projects/CareerBoost.png";
 import Keeper from "../assets/projects/Keeper.png";
-import Trendies from "../assets/projects/Trendies.jpg";
+import TaskManager from "../assets/projects/TaskManager.jpg";
 import Weather from "../assets/projects/WEATHERapp.png";
 import BlazeTracks from "../assets/projects/BlazeTracks.png";
 import AOS from "aos";
@@ -16,10 +16,11 @@ const Projects = () => {
   const Projects = () => [
     {
       id: 1,
-      src: Keeper,
-      desc: "Keeper is a simple note taking application made using React JS...",
-      demo: "https://my-keeper-application.netlify.app/",
-      code: "https://github.com/SamriddhiMaurya/my-keeper-app",
+
+      src: BlazeTracks,
+      desc: " BlazeTracks web-based music player website using HTML, CSS and JavaScript...",
+      demo: "https://blazetracks.netlify.app/",
+      code: "https://github.com/SamriddhiMaurya/BlazeTracks",
     },
 
     {
@@ -38,10 +39,10 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: Trendies,
-      desc: "This e-commerce website is made using MERN functionality. ",
+      src: TaskManager,
+      desc: "Task Manager designed using HTML, SCSS, Next JS and Typescript. ",
       // demo: "",
-      code: "https://github.com/SamriddhiMaurya/Trendies",
+      code: "https://github.com/SamriddhiMaurya/Task-Manager",
     },
     {
       id: 5,
@@ -53,10 +54,10 @@ const Projects = () => {
     {
       id: 6,
 
-      src: BlazeTracks,
-      desc: " BlazeTracks web-based music player website using HTML, CSS and JavaScript...",
-      demo: "https://blazetracks.netlify.app/",
-      code: "https://github.com/SamriddhiMaurya/BlazeTracks",
+      src: Keeper,
+      desc: "Keeper is a simple note taking application made using React JS...",
+      demo: "https://my-keeper-application.netlify.app/",
+      code: "https://github.com/SamriddhiMaurya/my-keeper-app",
     },
   ];
 
